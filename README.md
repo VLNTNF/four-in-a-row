@@ -1,6 +1,13 @@
-# Une IA pour jouer au puissance 4
+# Une IA qui joue au puissance 4
 
-## Explication
+## Introduction
+
+<p align="left"><img  src="https://raw.githubusercontent.com/VLNTNF/four-in-a-row-bot/main/Game.png" width="50%"></p>
+
+Le but de ce projet était de développer une IA pouvant jouer une partie de puissance 4.  
+Il fallait qu'elle puisse répondre en moins de 10 secondes et que ses coups soient intelligents.
+
+## Explication du code
 Notre méthode de recherche est un alpha-beta (*alpha-beta-searching(s)*).  
 
 Notre heuristique est dans *Utility(s)*. Cette méthode parcourt toute la grille. Pour chaque case, elle regarde selon la colonne, la ligne et les deux diagonales si des jetons sont alignés. Elle additionne alors si : 
